@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Raleway:wght@500;600&display=swap');
+:root{
+    --Dark : hsl(185, 75%, 39%); 
+    --Blue : hsl(229, 23%, 23%); 
+    --Darkopaco: hsl(224, 6%, 65%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    top: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400,700;
+    font-size: 11px;
+    background: var(--Blue);
+}
+.main {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cabina{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        box-shadow: 6px 7px 7px rgb(37, 37, 37);
+        background: var(--Darkopaco);
+        border-radius: 0.70rem;
+}
+
+
+.main  .fondo{
+    max-height:auto;
+    border-radius :10px 10px 0rem 0rem;
+}
+.main .fondo2{
+    border-radius: 5rem;
+    border: 3px solid var(--Blue);
+    cursor: pointer;
+}
+
+div h1{
+    padding: 0px 0px;
+}
+div i{
+    color: rgb(230, 230, 230);
+    font-family: "consolas";
+}
+div p{
+    font-size: 1rem;
+    padding: 5px 20px ;
+}
+div .tips{
+    padding: 1rem;
+    margin-top: 2.9rem;
+    border-top: 2px solid  var(--Blue);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+div .tips .tips2{
+    display:block;
+}
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        border-right: 2px solid bisque ;
+    }
+    .attribution a {
+    
+        color: hsl(228, 45%, 44%);
+    }
